@@ -21,7 +21,7 @@ img[src="summit-logo.webp"]::before {
 	display: block;
 	width: 100px; /* Adjust the size as needed */
 	height: 100px; /* Adjust the size as needed */
-	background-image: url('replacement-logo.webp'); /* Path to the replacement image */
+	background-image: url('../plugins/partner/partner-logo.png'); /* Path to the replacement image */
 	background-size: contain;
 	background-repeat: no-repeat;
 	background-position: center;
