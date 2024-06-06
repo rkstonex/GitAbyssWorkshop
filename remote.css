@@ -6,26 +6,15 @@
 	transform: rotate(360deg);
 }
 
-img[src="summit-logo.webp"] {
-	display: none;
-}
-/* Hide the image with the specific src */
-img[src="summit-logo.webp"] {
-	visibility: hidden; /* or display: none; */
-	position: relative;
-}
-
 /* Use a pseudo-element to display the replacement image */
-img[src="summit-logo.webp"]::before {
+header::before {
 	content: '';
-	display: block;
-	width: 100px; /* Adjust the size as needed */
-	height: 100px; /* Adjust the size as needed */
-	background-image: url('replacement-logo.webp'); /* Path to the replacement image */
+	display: inline-block;
+	width: 367px; /* Adjust the size as needed */
+	height: 75px; /* Adjust the size as needed */
+	background-image: url('../partner/partner-logo.png'); /* Path to the replacement image */
 	background-size: contain;
 	background-repeat: no-repeat;
 	background-position: center;
-	position: absolute;
-	top: 0;
-	left: 0;
+	position: relative;
 }
